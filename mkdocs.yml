@@ -10,11 +10,11 @@ python:
 
 plugins:
   - search  # To have search functionality on the document
+  - monorepo  # To include submodule documentation
   - mkdocstrings:
       handlers:
         python:
           paths: [lib-avstack-core, lib-avstack-api, carla-sandbox]
-  - monorepo  # To include submodule documentation
 
 nav:
   - Home: index.md
