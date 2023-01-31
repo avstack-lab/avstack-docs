@@ -12,7 +12,8 @@ build:
     python: "3.8"
 
 mkdocs:
-  configuration: mkdocs.yml
+  configuration: ./mkdocs.yml
+  fail_on_warning: false
 
 # Optionally declare the Python requirements required to build your docs
 python:
