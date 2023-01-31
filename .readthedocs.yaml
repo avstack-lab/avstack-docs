@@ -18,3 +18,7 @@ mkdocs:
 python:
    install:
    - requirements: docs/requirements.txt
+
+submodules:
+  include: [lib-avstack-core, lib-avstack-api, carla-sandbox]
+  recursive: false
