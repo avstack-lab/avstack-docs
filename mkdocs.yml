@@ -27,9 +27,9 @@ nav:
     - Generate Collaborative Dataset from CARLA: how-to-guides/2-generate-collaborative-carla-dataset.md
   - Library Documentations:
     - Introduction: library-index.md
-    - avstack-core: '!include ./lib-avstack-core/mkdocs.yml'
-    - avstack-api: '!include ./lib-avstack-api/mkdocs.yml'
-    - carla-sandbox: '!include ./carla-sandbox/mkdocs.yml'
+    - avstack-core: '!include ./lib-avstack-core/sub_mkdocs.yml'
+    - avstack-api: '!include ./lib-avstack-api/sub_mkdocs.yml'
+    - carla-sandbox: '!include ./carla-sandbox/sub_mkdocs.yml'
   - About:
     - License: about/license.md
     - Release Notes: about/release-notes.md
