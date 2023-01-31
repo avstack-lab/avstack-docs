@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "avstack-docs"
+version = "0.1.0-alpha.1"
+description = "Documentation for AVstack"
+authors = ["Spencer Hallyburton <spencer.hallyburton@duke.edu>"]
+readme = "README.md"
+license = "Apache-2.0"
+homepage = "https://avstack.org"
+repository = "https://github.com/avstack-lab/avstack-docs"
+keywords = ["self-driving", "autonomy", "perception", "planning", "control"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+]
+
+[tool.poetry.dependencies]
+python = "~3.8"
+
+[tool.poetry.group.docs.dependencies]
+mkdocstrings-python = "^0.8.3"
+mkdocs-material = "^9.0"
+mkdocs-monorepo-plugin = "^1.0.4"
+
+[build-system]
+requires = [
+    "poetry-core",
+]
+build-backend = "poetry.core.masonry.api"
