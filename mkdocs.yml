@@ -1,0 +1,38 @@
+site_name: AVstack
+site_url: https://avstack.org
+theme:
+  name: material
+
+plugins:
+  - search  # To have search functionality on the document
+  - monorepo  # To include submodule documentation
+  - mkdocs-jupyter
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [lib-avstack-core, lib-avstack-api, carla-sandbox]
+
+nav:
+  - Home: index.md
+  - How-To-Guides:
+    - Spinning Up: how-to-guides/0-spinning-up.md
+    - Understand Objects: how-to-guides/0-understand-objects.md
+    - Understand Scenes: how-to-guides/0-understand-scenes.md
+    - Visualizing Data: how-to-guides/0-visualize-data.ipynb
+    - Transforming Data: how-to-guides/0-transforming-data.ipynb
+    - Running Perception: how-to-guides/1-run-perception.ipynb
+    - Tracking Objects: how-to-guides/1-track-objects.ipynb
+    - Designing AVs: how-to-guides/1-design-av-models.ipynb
+    - Trade Studies: how-to-guides/1-trade-studies.ipynb
+    - Training Perception Algorithm: how-to-guides/2-train-perception.md
+    - Running Agent in CARLA Simulator: how-to-guides/2-run-carla-agent.md
+    - Generate Dataset from CARLA: how-to-guides/2-generate-carla-dataset.md
+    - Generate Collaborative Dataset from CARLA: how-to-guides/2-generate-collaborative-carla-dataset.md
+  - Library Documentations:
+    - Introduction: library-index.md
+    - avstack-core: '!include ./lib-avstack-core/sub_mkdocs.yml'
+    - avstack-api: '!include ./lib-avstack-api/sub_mkdocs.yml'
+    - carla-sandbox: '!include ./carla-sandbox/sub_mkdocs.yml'
+  - About:
+    - License: about/license.md
+    - Release Notes: about/release-notes.md
