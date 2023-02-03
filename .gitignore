@@ -1,0 +1,8 @@
+*.txt
+*.png
+*.bin
+*.p
+*.csv
+*.pdf
+
+!docs/requirements.txt
