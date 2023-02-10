@@ -24,10 +24,11 @@ nav:
     - Tracking Objects: how-to-guides/1-track-objects.ipynb
     - Designing AVs: how-to-guides/1-design-av-models.ipynb
     - Trade Studies: how-to-guides/1-trade-studies.ipynb
-    - Training Perception Algorithm: how-to-guides/2-train-perception.md
     - Running Agent in CARLA Simulator: how-to-guides/2-run-carla-agent.md
     - Generate Dataset from CARLA: how-to-guides/2-generate-carla-dataset.md
     - Generate Collaborative Dataset from CARLA: how-to-guides/2-generate-collaborative-carla-dataset.md
+    - Training Perception Algorithm: how-to-guides/2-train-perception.md
+
   - Library Documentations:
     - Introduction: library-index.md
     - avstack-core: '!include ./lib-avstack-core/sub_mkdocs.yml'
