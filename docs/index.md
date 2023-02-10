@@ -1,5 +1,7 @@
 # AVstack Documentation
 
+![AVstack full diagram](./images/avstack-full-diagram.png "AVstack full diagram") -->
+
 This serves as the authoritative spot for documentation of [AVstack][avstack-lab]. When we say AVstack, we refer to the family of libraries including (but not limited to) [avstack-core][avstack-core], [avstack-api][avstack-api], and the [carla-sandbox][carla-sandbox].  Many important AVstack projects are documented in the library documentation dropdown. More importantly, this site collates the all-important how-to guides for getting started with AVstack.
 
 **NOTE:** the documentation is under vigorous construction.
@@ -21,6 +23,12 @@ To meet these needs, we developed AVstack as an open-source, reconfigurable soft
 - Consistent interfacing between different datasets
 - Compatibility with AV simulators
 - Low-barrier adoption with high-level languages
+
+<br/>
+
+Diverse Algorithms         |  Connected Environment
+:-------------------------:|:-------------------------:
+![AVstack algorithms](./images/avstack-algorithms.png "AVstack algorithms")  |  ![AVstack collaborative](./images/avstack-collaborative-scene.png "AVstack collaborative")
 
 ## Organization
 

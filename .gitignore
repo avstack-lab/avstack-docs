@@ -5,4 +5,5 @@
 *.csv
 *.pdf
 
+!docs/images/*.png
 !docs/requirements.txt
