@@ -51,9 +51,12 @@ The API library provides a consistent interface for interacting with AV data of 
     tracking
     trades
 <kitti>
+<mot15>
 <nuimages>
 <nuscenes>
+<opv2v>
 <visualize>
+<waymo>
 _dataset
 ```
 
