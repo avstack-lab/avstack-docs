@@ -10,15 +10,15 @@ A base `ObjectState` class defines physical objects in the 3D world. Commonly fo
 
 #### 3D Bounding Box
 
-Objects in physical space can be localized with a 3D bounding box. This box is specified as a tuple of `(h, w, l, x, y, z, q, origin)` where `(h, w, l)` are box dimensions, `(x, y, z)` are box center locations, `q` is the orientatoin quaternion, and `origin` represents the coordinate frame origin of the center and orientation. AVstack makes use of the 3D bounding box often in perception, tracking, motion prediction, and planning.
+Objects in physical space can be localized with a 3D bounding box. This box is specified as a tuple of `(h, w, l, x, q, ref)` where `(h, w, l)` are box dimensions, `x=(x, y, z)` is a `Position` object describing the box center relative to the reference frame, `q` is an `Attitude` object describing the box center rotation relative to the reference frame, and `ref` is the `ReferenceFrame` object that describes the position and orientation of the coordinates. AVstack makes use of the 3D bounding box often in perception, tracking, motion prediction, and planning.
 
 #### 2D Bounding Box
 
-Similarly, it is common to find a two-dimensional projection of AV data - e.g., camera is a front-view projection; bird's-eye view is a top-down projection. In these cases, a 2D bounding box is an appropriate representation of an object. 
+Similarly, it is common to find a two-dimensional projection of AV data - e.g., camera is a front-view projection; bird's-eye view is a top-down projection. In these cases, a 2D bounding box is an appropriate representation of an object. 2D bounding boxes are specified as a tuple of `(x_min, y_min, x_max, y_max, calibration)` where the first four elements describe the bounding box in pixel space and `calibration` is a `CameraCalibration` object that contains intrinsic and reference frame attributes of the camera used.
 
 #### 2D Segmentation Mask
 
-Finally, a segmentation mask can be used for pixel-level or point-wise classification and identification. AVstack makes use of segmentation masks in perception to obtain high-quality object locations.
+Finally, a segmentation mask can be used for pixel-level or point-wise classification and identification. AVstack makes use of segmentation masks in perception to obtain high-quality object locations. The segmentation mask data structure is implemented but it is not yet fully settled on the best data structure.
 
 ## Ego Vehicles
 

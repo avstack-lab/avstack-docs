@@ -7,3 +7,5 @@
 
 !docs/images/*.png
 !docs/requirements.txt
+
+*.ipynb_checkpoints/

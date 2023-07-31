@@ -1,1 +1,0 @@
-# Generate Collaborative CARLA Dataset

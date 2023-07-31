@@ -18,11 +18,14 @@ Find the high-level organization below.
     traffic
 <geometry>
     bounding-box
+    carla
     coordinates
+    datastructs
     planes
-    primitives
+    refchoc
     transformations
 <modules>
+    assignment
     <control>
     <fusion>
     <localization>
@@ -33,6 +36,8 @@ Find the high-level organization below.
     <tracking>
 calibration
 datastructs
+maskfilters
+messages
 sensors
 ```
 As a result of the data-source agnostic design decision, we will not be invoking any dataset or simulator in particular when describing the core functionality. On the other hand, the documentation for the API has plenty of source-specific examples.
