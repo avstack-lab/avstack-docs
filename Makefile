@@ -39,3 +39,7 @@ format: $(INSTALL_STAMP)
 		$(POETRY) run autoflake --remove-all-unused-imports -i -r $(NAME) --exclude=__init__.py 
 		$(POETRY) run isort --profile=black --lines-after-imports=2 $(NAME)
 		$(POETRY) run black $(NAME)
+
+.PHONY: docs
+docs: $(INSTALL_STAMP)
+		$(POETRY) run mkdocs serve -a localhost:8000

@@ -19,6 +19,7 @@ lib-avstack-core = { path = "lib-avstack-core", develop = true }
 lib-avstack-api = { path = "lib-avstack-api", develop = true }
 
 [tool.poetry.group.docs.dependencies]
+mkdocs = "^1.5.2"
 mkdocstrings-python = "^0.8.3"
 mkdocs-material = "^8.0"
 mkdocs-monorepo-plugin = "^1.0.4"
