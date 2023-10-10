@@ -7,3 +7,6 @@
 [submodule "carla-sandbox"]
 	path = carla-sandbox
 	url = https://github.com/avstack-lab/carla-sandbox
+[submodule "avdev-sandbox"]
+	path = avdev-sandbox
+	url = https://github.com/avstack-lab/avdev-sandbox

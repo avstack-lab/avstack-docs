@@ -2805,7 +2805,7 @@ six = "*"
 terminaltables = "*"
 
 [package.extras]
-all = ["cython", "matplotlib", "numpy", "scipy", "shapely", "six", "terminaltables"]
+all = ["cython", "matplotlib", "numpy", "numpy", "scipy", "shapely", "six", "terminaltables"]
 build = ["cython", "numpy"]
 mim = ["mmcv (>=2.0.0rc4,<2.1.0)", "mmengine (>=0.7.1,<1.0.0)"]
 optional = ["cityscapesscripts", "imagecorruptions", "scikit-learn"]
@@ -5261,7 +5261,7 @@ telegram = ["requests"]
 [[package]]
 name = "trackeval"
 version = "1.0.dev1"
-description = ""
+description = "Code for evaluating object tracking"
 optional = false
 python-versions = "*"
 files = []

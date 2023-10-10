@@ -17,25 +17,25 @@ Find the high-level organization below.
     signs
     traffic
 <geometry>
-    bounding-box
-    carla
+    bbox
     coordinates
     datastructs
     planes
     refchoc
     transformations
 <modules>
-    assignment
     <control>
     <fusion>
     <localization>
     <perception>
     <planning>
     <prediction>
-    <safety>
     <tracking>
+    assignment
+<utils>
 calibration
 datastructs
+exceptions
 maskfilters
 messages
 sensors
@@ -61,7 +61,6 @@ The API library provides a consistent interface for interacting with AV data of 
 <nuscenes>
 <opv2v>
 <visualize>
-<waymo>
 _dataset
 ```
 

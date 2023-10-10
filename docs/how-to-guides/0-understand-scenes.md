@@ -1,6 +1,6 @@
 # Understanding Scenes
 
-Now that we understand objects, let's discuss the scenes that those objects compose. 
+Now that we understand objects and reference frames, let's discuss the scenes that those objects compose. 
 
 ## Data As Longitudinal Scenes
 
