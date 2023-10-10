@@ -2,7 +2,7 @@
 
 ![AVstack full diagram](./images/avstack-full-diagram.png "AVstack full diagram") -->
 
-This serves as the authoritative spot for documentation of [AVstack][avstack-lab]. When we say AVstack, we refer to the family of libraries including (but not limited to) [avstack-core][avstack-core], [avstack-api][avstack-api], and the [carla-sandbox][carla-sandbox].  Many important AVstack projects are documented in the library documentation dropdown. More importantly, this site collates the all-important how-to guides for getting started with AVstack.
+This serves as the authoritative spot for documentation of [AVstack][avstack-lab]. When we say AVstack, we refer to the family of libraries including (but not limited to) [avstack-core][avstack-core], [avstack-api][avstack-api], the [avdev-sandbox][avdev-sandbox], and the [carla-sandbox][carla-sandbox].  Many important AVstack projects are documented in the library documentation dropdown. More importantly, this site collates the all-important how-to guides for getting started with AVstack.
 
 **NOTE:** the documentation is under vigorous construction.
 
@@ -34,7 +34,7 @@ Diverse Algorithms         |  Connected Environment
 
 The AVstack family of repositories rely on our [**CORE**][avstack-core] and [**API**][avstack-api] libraries. The core library provides data-source-agnostic definition of AV modules and implementation of algorithms. Meanwhile, the API library provides a simple interface for using benchmark AV datasets and simulators.
 
-In this documentation, we provide a set of how-to guides to help you get started with AVstack. To supplement, we also provide API-level documentation for the core and API libraries as well as for the [carla-sandbox][carla-sandbox]. 
+In this documentation, we provide a set of how-to guides to help you get started with AVstack. To supplement, we also provide API-level documentation for the core and API libraries as well as for the [avdev-sandbox][avdev-sandbox] and [carla-sandbox][carla-sandbox]. 
 
 <br/><br/>
 
@@ -43,4 +43,5 @@ In this documentation, we provide a set of how-to guides to help you get started
 [avstack-lab]: https://github.com/avstack-lab
 [avstack-core]: https://github.com/avstack-lab/lib-avstack-core
 [avstack-api]: https://github.com/avstack-lab/lib-avstack-api
+[avdev-sandbox]: https://github.com/avstack-lab/avdev-sandbox
 [carla-sandbox]: https://github.com/avstack-lab/carla-sandbox
